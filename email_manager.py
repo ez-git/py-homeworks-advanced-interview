@@ -56,3 +56,7 @@ class EmailManager:
         mail.logout()
 
         return email_message
+
+
+if __name__ == '__main__':
+    email_manager = EmailManager('login@gmail.com', 'qwerty')
